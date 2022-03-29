@@ -12,5 +12,5 @@ spec:
     requests:
       storage: 2Gi
   storageClassName: ocs-storagecluster-ceph-rbd
-  volumeMode: block
+  volumeMode: Block
 ---
