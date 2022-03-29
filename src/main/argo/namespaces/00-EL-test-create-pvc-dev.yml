@@ -1,0 +1,9 @@
+apiVersion: triggers.tekton.dev/v1alpha1
+kind: EventListener
+metadata:
+  name: test-create-pvc-dev-eventlistener
+  namespace: test-create-pvc-dev
+spec:
+  serviceAccountName: pipeline
+  triggers:
+    - triggerRef: test-create-pvc-dev-trigger
