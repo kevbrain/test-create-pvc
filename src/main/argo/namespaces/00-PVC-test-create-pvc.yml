@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   namespace: test-create-pvc-dev
-  name: pvctest-vol-1_claim
+  name: test-create-pvc-dev-pipeline-claim
   labels:
     app: test-create-pvc
 spec:
