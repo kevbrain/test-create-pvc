@@ -24,7 +24,7 @@ spec:
           emptyDir: {}
         - name: pvtest-vol-1
           persistentVolumeClaim:
-            claimName: pvctest-vol-1_claim
+            claimName: pvctest-vol-1-claim
       containers:
         - name: microservice-pod 
           resources:
